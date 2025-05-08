@@ -58,6 +58,7 @@ Request 4 → Backend A ...
     Client --> | Reverse Proxy     | --> Backend 1 (localhost:8081)
               ( Port 8000 )        | --> Backend 2 (localhost:8082)
                +-------------------+ --> Backend 3 (localhost:8083)
+```
 The proxy server:
 
 Accepts requests on :8000
