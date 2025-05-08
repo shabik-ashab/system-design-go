@@ -69,6 +69,7 @@ Returns the backend's response to the client
 
 ## 🧱 Project Structure
 
+```
 round-robin-reverse-proxy/
 ├── main.go              # Entry point for the proxy server
 ├── proxy/
@@ -79,7 +80,7 @@ round-robin-reverse-proxy/
 │   └── server3.go       # Dummy backend server on port 8083
 ├── go.mod               # Go module file
 └── README.md            # This file
-
+```
 
 ## 📘 Learning Notes
 This repo is intentionally simple so you can learn:
