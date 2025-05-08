@@ -67,7 +67,7 @@ Uses round-robin to forward to one of three backend servers
 
 Returns the backend's response to the client
 
-🧱 Project Structure
+## 🧱 Project Structure
 
 round-robin-reverse-proxy/
 ├── main.go              # Entry point for the proxy server
@@ -81,7 +81,7 @@ round-robin-reverse-proxy/
 └── README.md            # This file
 
 
-📘 Learning Notes
+## 📘 Learning Notes
 This repo is intentionally simple so you can learn:
 
 What a reverse proxy is and how it works
